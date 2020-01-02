@@ -17,6 +17,7 @@ COPY package*.json ./
 COPY deploy.sh ./
 COPY install-node.sh ./
 RUN wget https://nodejs.org/download/release/v12.14.0/node-v12.14.0-linux-x64.tar.gz
+
 RUN ./install-node.sh
 
 ## COPY next.config.js  ./
