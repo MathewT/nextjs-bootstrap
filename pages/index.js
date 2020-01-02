@@ -1,9 +1,10 @@
-import Navbar from "./components/navbar";
+import Layout from "./components/layout";
 
 const  Index = () =>  (
-  <div>
-    <Navbar/>  
-    <p>NextJS with Bootstrap (soon).</p>
-  </div>
+  <Layout>
+    <div>
+      <p>NextJS with Bootstrap (soon).</p>
+    </div>
+  </Layout>
 );
 export default Index;

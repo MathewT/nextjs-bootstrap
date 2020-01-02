@@ -1,9 +1,10 @@
-import Navbar from "./components/navbar";
+import Layout from "./components/layout";
 
 const  Contact= () =>  (
-  <div>
-    <Navbar/>
-    <p><a href="mailto:mathewt@bitcloset.com">Contact me!</a></p>
-  </div>
+  <Layout>
+    <div>
+      <p><a href="mailto:mathewt@bitcloset.com">Contact me (layout)!</a></p>
+    </div>
+  </Layout>
 );
 export default Contact;
